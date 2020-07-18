@@ -13,7 +13,11 @@ def using_pop(array)
   array.pop
 end
 
-#4) 
+#4) This method takes in a parameter of an Array and uses the .pop method. This time, however, pass an argument, 2, into .pop to remove the last two array items and return them.
+def pop_with_args(array)
+  array.pops(2)
+end
+
 #This method takes in a parameter of an Array and uses the .shift method to remove the first item and return it.  ** PASS
 def using_shift(array)
   array.shift
