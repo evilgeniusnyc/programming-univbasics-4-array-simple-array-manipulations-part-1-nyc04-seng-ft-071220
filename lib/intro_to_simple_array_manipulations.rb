@@ -7,14 +7,12 @@ end
 def using_unshift(array, string)
   array.unshift(string)
 end
-
 #This method takes in parameter of an Array and uses the .pop method to remove the last element from the array and return that element.
 def using_pop(array)
   array.pop
 end
-
 #This method takes in a parameter of an Array and uses the .shift method to remove the first item and return it.
-def using_shift
+def using_shift(array)
   array.shift
 end
 
