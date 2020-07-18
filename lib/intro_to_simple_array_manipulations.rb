@@ -1,18 +1,19 @@
-# This method takes in two parameters, an Array and a String. It adds that string to the end of the array using the .push method. **PASS
+# 1) This method takes in two parameters, an Array and a String. It adds that string to the end of the array using the .push method. **PASS
 def using_push(array, string)
   array.push(string)
 end
 
-# This method takes in two parameters, an Array and a String and adds that string to the front of the array using the .unshift method. ** PASS
+# 2) This method takes in two parameters, an Array and a String and adds that string to the front of the array using the .unshift method. ** PASS
 def using_unshift(array, string)
   array.unshift(string)
 end
 
-#This method takes in parameter of an Array and uses the .pop method to remove the last element from the array and return that element. ** PASS
+# 3) This method takes in parameter of an Array and uses the .pop method to remove the last element from the array and return that element. ** PASS
 def using_pop(array)
   array.pop
 end
 
+#4) 
 #This method takes in a parameter of an Array and uses the .shift method to remove the first item and return it.  ** PASS
 def using_shift(array)
   array.shift
