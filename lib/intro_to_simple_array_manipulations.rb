@@ -10,7 +10,7 @@ end
 
 #This method takes in parameter of an Array and uses the .pop method to remove the last element from the array and return that element. ** PASS
 def using_pop(array)
-  array.pop(2)
+  array.pop
 end
 
 #This method takes in a parameter of an Array and uses the .shift method to remove the first item and return it.  ** PASS
