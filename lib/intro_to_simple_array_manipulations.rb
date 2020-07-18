@@ -16,6 +16,3 @@ def using_shift(array)
   array.shift
 end
 #This method takes in a parameter of an Array and uses the .shift method. This time, pass an argument, 2, into .shift to remove and return the first two items from the array.
-def update_element_from_index(array, index_number, element)
-array[4]="totally"
-end	
