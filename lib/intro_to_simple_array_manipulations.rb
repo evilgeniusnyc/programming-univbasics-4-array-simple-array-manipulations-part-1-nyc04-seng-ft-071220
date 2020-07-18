@@ -17,5 +17,5 @@ def using_shift(array)
 end
 #This method takes in a parameter of an Array and uses the .shift method. This time, pass an argument, 2, into .shift to remove and return the first two items from the array.
 def shift_with_args(array)
-  array.drop
+  array.drop(2)
 end
